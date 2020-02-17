@@ -1,0 +1,11 @@
+.jumbotron{
+    background-image: url(public/assets/images/wp3342327.jpg);
+  }
+  
+  .nav {
+    width: 100%;
+  }
+
+  .card {
+      width: 18rem;
+  }
