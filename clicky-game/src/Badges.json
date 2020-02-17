@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Boulder Badge",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "name": "Cascade Badge",
+        "image": 
+    },
+    {
+        "id": 3,
+        "name": "Thunder Badge",
+        "image": 
+    },
+    {
+        "id": 4,
+        "name": "Rainbow Badge",
+        "image": 
+    },
+    {
+        "id": 5,
+        "name": "Soul Badge",
+        "image": 
+    },
+    {
+        "id": 6,
+        "name": "Marsh Badge",
+        "image": 
+    },
+    {
+        "id": 7,
+        "name": "Volcano Badge",
+        "image": 
+    },
+    {
+        "id": 8,
+        "name": "Earth Badge",
+        "image": 
+    }
+
+]
