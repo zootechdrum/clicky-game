@@ -2,42 +2,42 @@
     {
         "id": 1,
         "name": "Boulder Badge",
-        "image": ""
+        "image": "boulderbadge.png"
     },
     {
         "id": 2,
         "name": "Cascade Badge",
-        "image": 
+        "image": "cascadebadge.png"
     },
     {
         "id": 3,
         "name": "Thunder Badge",
-        "image": 
+        "image": "thunderbadge.png"
     },
     {
         "id": 4,
         "name": "Rainbow Badge",
-        "image": 
+        "image": "rainbowbadge.png"
     },
     {
         "id": 5,
         "name": "Soul Badge",
-        "image": 
+        "image": "soulbadge.png"
     },
     {
         "id": 6,
         "name": "Marsh Badge",
-        "image": 
+        "image": "marshbadge.png"
     },
     {
         "id": 7,
         "name": "Volcano Badge",
-        "image": 
+        "image": "volcanobadge.png"
     },
     {
         "id": 8,
         "name": "Earth Badge",
-        "image": 
+        "image": "earthbadge.png"
     }
 
 ]

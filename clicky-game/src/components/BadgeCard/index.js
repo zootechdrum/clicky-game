@@ -1,14 +1,29 @@
-import React from "react";
+import React, { Component } from "react";
+import Badges from "./Badges.json"
 
-function badgeCard(props) {
+
+// class BadgeCard extends Component {
+//     constructor(){
+//         super(props);
+//         this.state = {
+//             Badges: this.shuffleBadges(this.props.image)
+//         }
+//     }
+// }
+
+
+
+function BadgeCard(props) {
     return (
-        <div className="card-group">
+<React.Fragment>
+<main className="imgContainer">
   <div className="card">
-    <img src={props.image} className="card-img-top" alt="Pokemon Badge" id={props.id}>
+<img src={props.image} className="card-img-top" alt="Pokemon Badge" id={props.id}>
     </img>
     </div>
-    </div>
+    </main>
+    </React.Fragment>
     );
 }
 
-export default badgeCard;
+export default BadgeCard;

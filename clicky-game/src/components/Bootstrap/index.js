@@ -1,30 +1,35 @@
 import React, { Component, Fragment } from 'react';
+import "./index.css"
+
 
 
 function Bootstrap() {
 return (
 
 <Fragment>
-<div className = "container">
-<nav className="navbar navbar-light bg-light">
-  <a className="navbar-brand" href="#">
-    Pokemon Badge Picker
+<div className = "navcontainer">
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+   Gotta click 'em all!
   </a>
+  <p className="yourScore">
+Current Score:
+</p>
+<p>
+  Best Score:
+</p>
 </nav>
 </div>
 
 <div className="jumbotron jumbotron-fluid">
-   <div className="container">
+    <div className="container">
     <h1 className="display-4">Gym Badge Clicker</h1>
    <p className="lead">Click on a Kanto region badge to earn points, but don't click the same badge twice!
     </p>
 </div>
 </div>
 
-<div className="card" >
-  <img src="#" class="card-img-top" alt="Pokemon badge">
-    </img>
-</div> 
+
 </Fragment>
 );
 }
