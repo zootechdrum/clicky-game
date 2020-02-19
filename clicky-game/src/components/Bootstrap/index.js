@@ -16,7 +16,6 @@ return (
 Current Score:
 </p>
 <p>
-  Best Score:
 </p>
 </nav>
 </div>
