@@ -3,23 +3,10 @@ import "./index.css"
 
 
 
-function Bootstrap() {
+function Bootstrap(props) {
 return (
 
 <Fragment>
-<div className = "navcontainer">
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-   Gotta click 'em all!
-  </a>
-  <p className="yourScore">
-Current Score:
-</p>
-<p>
-</p>
-</nav>
-</div>
-
 <div className="jumbotron jumbotron-fluid">
     <div className="container">
     <h1 className="display-4">Gym Badge Clicker</h1>
