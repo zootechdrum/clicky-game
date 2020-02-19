@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url("/clicky-game/public/pikachu.jpg");
+    background-image: url(/pikachu.jpg);
   }
   
   .navbar {
@@ -10,8 +10,4 @@
       width: 12rem;
   }
 
-  .footer {
-    height: 50px;
-    width: 100%;
-    background: black;
-  }
+ 

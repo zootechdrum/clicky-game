@@ -21,6 +21,7 @@ class App extends Component {
     this.setState({ score: this.state.score + 1 });
     if (this.state.score === 7) {
       alert("You win! Onwards to the Elite Four!");
+      this.setState({ score: 0 })
       
     }
   }
