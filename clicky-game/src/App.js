@@ -9,8 +9,13 @@ import { render } from 'react-dom';
 
 class App extends Component {
   state = {
-    Badges
+    Badges,
+    clickedItems:[],
   };
+
+
+
+  // if ()
 
 
   componentDidMount(){
@@ -24,6 +29,7 @@ class App extends Component {
   }
 
   shuffleFun=()=>{
+  
   let newArr= this.state.Badges.sort(function (a, b) { return 0.5 - Math.random() })
    console.log("------")
    console.log(newArr)
@@ -32,6 +38,8 @@ class App extends Component {
    })
  }
 
+
+// set the state to event target
 
   clickedBadge = id => {
     const newArr = [];
@@ -54,7 +62,7 @@ render(){
 
     {this.state.Badges.map(c=>
       <BadgeCard
-      image={c.image} key={c.id} shuffleFuntion={this.shuffleFun}
+      image={c.image} key={c.id} onClick={this.shuffleFun}
     />
       )}
       <row>
