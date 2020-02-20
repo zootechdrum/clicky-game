@@ -11,7 +11,8 @@ class App extends Component {
   state = {
     Badges,
     clickedItems: [],
-    score: 0
+    score: 0,
+    clicked: false
   };
 
 
@@ -19,12 +20,22 @@ class App extends Component {
   handleIncrement = () => {
     console.log("inside function")
     this.setState({ score: this.state.score + 1 });
+    // this.setState({ clicked: true })
+    // if (this.state.clicked == true){
+    //   alert("Sorry you lost the game")
+    // }
     if (this.state.score === 7) {
       alert("You win! Onwards to the Elite Four!");
       this.setState({ score: 0 })
       
     }
   }
+
+  // scoreMechanics = (event) => {
+  //   let id = event.target.id
+
+  //   if 
+  // }
 
   // if ()
 
@@ -51,21 +62,22 @@ class App extends Component {
 
   // set the state to event target
 
-  clickedBadge = id => {
-    const newArr = [];
-    const Badges = this.state.Badges.forEach(event => Badges.id)
-    newArr.push(Badges.id);
-    for (let i = 0; i < Badges.length; i++) {
-      if (newArr[i] == Badges.id)
-        alert("Sorry you lost!")
-    }
-  }
+  // clickedBadge = id => {
+  //   this.state.clickedItems = [];
+  //   const Badges = this.state.Badges.forEach(Badges.id)
+  //   this.state.clickedItems.push(Badges.id);
+  //   for (let i = 0; i < Badges.length; i++) {
+  //     if (this.state.clickedItems[i].id == Badges.id)
+  //       alert("Sorry you lost!")
+  //   }
+  // }
 
 
 
   multiFunc = () => {
     this.shuffleFun();
     this.handleIncrement();
+    
   }
 
   render() {
